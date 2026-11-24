@@ -1,0 +1,48 @@
+* {
+    color: #f9faf8;
+    font-size: 24px;
+    text-decoration: none;
+    margin: 0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #1F2937;
+    padding: 0.5rem;
+
+    position: fixed;
+    width: 100%;
+
+    z-index: 1000;
+    box-sizing: border-box;
+}
+
+.hammer {
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+}
+
+.header-logo {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.logo-title {
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: 1000;
+}
+
+.links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+}
+
+.links a {
+    font-size: 0.75rem;
+}
