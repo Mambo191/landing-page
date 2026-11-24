@@ -1,0 +1,39 @@
+.pillars{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    gap: 1rem;
+}
+
+.pillar-info {
+    display: flex;
+    justify-content: space-between;
+    width: 75%;
+}
+
+.pillar img {
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    border: 2px solid;
+    border-color: rgb(135, 206, 235);
+    box-shadow: 
+        0 0 2px rgba(135, 206, 235, 1),
+        0 0 5px rgba(135, 206, 235, 0.3),
+        0 0 10px rgba(135, 206, 235, 0.5);
+}
+
+.pillar .text, .name {
+    font-size: 10px;
+}
+
+.pillar .text {
+    width: 150px;
+    text-align: center;
+}
+
+.text, .name, .title {
+    color: black;
+}

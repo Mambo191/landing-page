@@ -1,0 +1,24 @@
+.quote{
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 1rem;
+}
+
+.main-text, .signage {
+    color: black;
+}
+
+.main-text {
+    font-size: 1rem;
+    width: 600px;
+    font-style: italic;
+}
+
+.signage {
+    font-size: 0.75rem;
+    font-weight: 800;
+    margin-left: auto;
+}

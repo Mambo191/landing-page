@@ -1,0 +1,46 @@
+@import url("font.css");
+@import url("pillars.css");
+@import url("quote.css");
+@import url("cta.css");
+
+.land-page {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    padding: 250px 0 250px 0;
+    gap: 1rem;
+    height: 100%;
+    width: 100%;
+}
+
+.main-grab {
+    width: 20rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+
+.main-title {
+    font-weight: 800;
+    font-size: 1.5rem;
+    width: 15rem;
+}
+
+.subtext {
+    font-size: 0.75rem;
+}
+
+.main-grab button {
+    background-color: skyblue;
+    border-radius: 10px;
+    width: 45%;
+    border: none;
+    height: 50px;
+}
+
+.capture img {
+    height: 275px;
+    border-radius: 25px;
+}
+
